@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWave - Travel Recommendations</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <section class="flex">
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>W</span>ander<span>W</span>ave</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">about us</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+    </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Ride the Wave to Your Next Adventure</h3>
+            <p>dive into your dream destinations, adventures await</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Mumbai, often referred to as the "City of Dreams" or the "Financial Capital of India," is a bustling metropolis on the west coast of India. 
+                    Known for its fast-paced lifestyle, diverse culture, and historic significance, Mumbai is a city that never sleeps. 
+                    It is the capital city of the state of Maharashtra and the most populous city in India, offering a unique blend of traditional charm and modern dynamism.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $120.00 <span>$249.99</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Hawaii, a tropical paradise known for its stunning landscapes, rich cultural heritage, and warm aloha spirit, is an ideal destination for travelers seeking both adventure and relaxation. 
+                    This travel recommendation aims to provide a comprehensive guide to help you make the most of your Hawaiian vacation, whether you're looking to explore lush rainforests, relax on pristine beaches, or immerse yourself in the local culture.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $80.00 <span>$159.99</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Sydney, Australia's largest and most iconic city, is a vibrant metropolis that blends natural beauty with a rich cultural tapestry. 
+                    Known for its stunning harbor, world-renowned landmarks, and dynamic urban life, Sydney offers a diverse array of experiences for every type of traveler. 
+                    From its pristine beaches and historic sites to its vibrant arts scene and culinary delights, Sydney is a city that captivates the heart and imagination.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $74.99 <span>$139.99</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Paris, often referred to as "The City of Light" and "The City of Love," is the capital of France and one of the most iconic cities in the world. 
+                    Renowned for its rich history, architectural marvels, and cultural heritage, Paris captivates visitors with its timeless charm and elegance. 
+                    From the majestic Eiffel Tower and the artistic treasures of the Louvre to the quaint cafes and bustling boulevards, Paris offers an unparalleled blend of romance, sophistication, and vibrant urban life. 
+                    Whether you are strolling along the Seine, exploring the historic neighborhoods, or indulging in exquisite French cuisine, Paris promises an unforgettable experience that enchants the senses and stirs the soul.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$259.99</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Tokyo, the capital city of Japan, is a dazzling metropolis that seamlessly blends the ultra-modern with the deeply traditional. 
+                    As one of the world's most populous cities, Tokyo is a hub of innovation, culture, and cuisine. 
+                    The city's skyline, dominated by towering skyscrapers and neon lights, contrasts with tranquil temples, historic gardens, and traditional wooden houses. 
+                    Visitors can explore cutting-edge technology and fashion in districts like Shibuya and Shinjuku, while also experiencing the serene beauty of sites such as the Meiji Shrine and the Imperial Palace. 
+                    Tokyo's culinary scene is equally diverse, offering everything from world-renowned sushi and ramen to international gourmet dining. 
+                    With its efficient public transportation, unique neighborhoods, and rich cultural heritage, Tokyo offers an unforgettable experience that captivates every traveler.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $120.00 <span>$329.99.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+                <p>Egypt, known as the "Cradle of Civilization," is a land of ancient wonders and timeless beauty. 
+                    Situated in northeastern Africa, Egypt is home to some of the world's most iconic landmarks, including the majestic Pyramids of Giza, the enigmatic Sphinx, and the historic temples of Luxor and Karnak. 
+                    The country's rich history dates back thousands of years, encompassing the legacy of the pharaohs, the grandeur of the Nile River, and the treasures of the Egyptian Museum in Cairo. 
+                    Beyond its archaeological marvels, Egypt offers stunning natural landscapes, from the serene Red Sea beaches and vibrant coral reefs to the vast expanses of the Sahara Desert. 
+                    Visitors can explore bustling bazaars, experience traditional Bedouin culture, and indulge in flavorful Egyptian cuisine. 
+                    With its unique blend of ancient history and modern vibrancy, Egypt provides a captivating journey through time that enchants and inspires travelers from around the globe.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$189.99</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Discover affordable hotels that offer comfort and convenience without breaking the bank. 
+                Enjoy top-notch amenities, prime locations, and exceptional service at unbeatable prices.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Indulge in a culinary adventure with our diverse selection of food and drinks. 
+                Savor delectable dishes and refreshing beverages crafted to delight every palate.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Navigate with confidence using our safety guide, ensuring peace of mind throughout your journey. 
+                Access essential tips and resources to prioritize your well-being and enjoy a worry-free travel experience.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Embark on a global odyssey, where every destination is within reach. 
+                Explore diverse cultures, breathtaking landscapres, and unforgettable experiences across continents, creating memories to last a lifetime.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Experience the thrill of the fast lane using WanderWave, where efficiency meets excitement. 
+                Zoom past queues and delays to reach your destination swiftly, ensuring more time for adventure and discovery.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Embark on thrilling adventures with WanderWave, your ultimate travel companion. 
+                From mountain treks to jungle expeditions, WanderWave curates unforgettable experiences that ignite the spirit of adventure in every traveler.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Amazing Views</h3>
+                <p>Experience the amazing scenery and show your friends</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Amazing Activities</h3>
+                <p>Look forward to the amazing activities planned throughout the day, with lots of free time for you to explore as well</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Amazing History</h3>
+                <p>Discoverand unsheath all the information there is on famous landmarks</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing photography</h3>
+                <p>we have excellent tour guides and helpers who are on standby to assist you in framing memories that last</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>excellent weather</h3>
+                <p>all travels are planned for specific seasons where all aspects of famous landmarks can be seen in their peak hours</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>wonderful experiences</h3>
+                <p>it's always our goal to help you relax and ride the wave of life</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>lasting memories</h3>
+                <p>we want to provide memories that will last a lifetime whether you travel alone or with friends</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>wander</h3>
+                <p>find the joy in the little things in life whether it be exploring the outdoors or viewing art pieces</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>creative inspiration</h3>
+                <p>let the world inspire you and make you find something you're interested in. find what you love to do</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/pic1.png" alt="">
+                <h3>Julianna Ramirez</h3>
+                <p>"Booking my trip through WanderWave was an absolute game-changer. 
+                    Their attention to detail and personalized recommendations made my travel experience seamless and unforgettable. 
+                    From the moment I contacted them, their team went above and beyond to tailor the perfect itinerary, ensuring every aspect of my journey exceeded expectations. 
+                    I can't recommend WanderWave highly enough for anyone seeking adventure, convenience, and exceptional service."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic2.png" alt="">
+                <h3>Greg Hardlow</h3>
+                <p>"WanderWave truly exceeded my expectations from start to finish. 
+                    Their expertise in crafting unique travel experiences is unmatched, and I was blown away by the level of professionalism and dedication displayed by their team. 
+                    Not only did they provide me with invaluable recommendations and insider tips, but they also ensured that every aspect of my trip, from accommodations to activities, was flawlessly executed. 
+                    Thanks to WanderWave, I was able to explore new destinations with ease and confidence, creating memories that will last a lifetime. 
+                    I can't wait to book my next adventure with them!"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic3.png" alt="">
+                <h3>Alyssa Lee</h3>
+                <p>"WanderWave made my travel dreams a reality with their impeccable service and attention to detail. 
+                    From suggesting hidden gems to handling all the logistics, they took the stress out of planning and allowed me to fully immerse myself in the experience. 
+                    With WanderWave, every journey is an adventure worth remembering."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic4.png" alt="">
+                <h3>Max Codley</h3>
+                <p>"WanderWave has been an invaluable asset to my business travel needs. 
+                    Their efficiency in organizing seamless itineraries, coupled with their understanding of the demands of corporate travel, has made every trip a breeze. 
+                    With WanderWave, I can focus on my business objectives with confidence, knowing that every aspect of my travel arrangements is in capable hands."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<footer class="footer">
+
+    <section class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>WanderWave is a premier travel agency dedicated to curating exceptional experiences for discerning travelers worldwide. With a passion for exploration and a commitment to excellence, we specialize in crafting bespoke itineraries that cater to the unique preferences and interests of our clients.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </section>
+
+    <h1 class="credit"> @2024 <span> WanderWave </span> | all rights reserved! </h1>
+
+</footer>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
